@@ -25,10 +25,6 @@ export const router = createBrowserRouter([
         element: <EditarProducto />,
         errorElement: <ErrorPage />,
       },
-      {
-        path: '/productos/:id/eliminar',
-        errorElement: <ErrorPage />,
-      },
     ],
   },
 ]);
